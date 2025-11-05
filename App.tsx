@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { FormData } from './types.ts';
-import Form from './components/Form.tsx';
-import Preview from './components/Preview.tsx';
-import Toast from './components/Toast.tsx';
+import Form from './components/Form';
+import Preview from './components/Preview';
+import Toast from './components/Toast';
 
 // Helper function to convert number to Portuguese words
 const numberToWordsPt = (numStr: string): string => {
